@@ -1,0 +1,85 @@
+body {
+	background-color: #D2B48C;
+	font-family: Arial;
+	color: black;
+}
+
+h1 {
+	color: #704214;
+	font-family: Helvetica;
+	font-weight: bolder;
+}
+
+h2 {
+	color: #996515;
+	font-family: courrier;
+}
+a{
+	font-size: 14px;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+	width: 400px;
+}
+}
+
+.card-white {
+	background-color: ghostwhite;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	margin: 60px 150px;
+	padding: 40px;
+	border-radius: 4px;
+}
+
+.img-circle {
+	border-radius: 100%;
+}
+
+#leader {
+	box-shadow: 0px 10px 30 px rgba(0, 0, 0, 0.2);
+}
+
+.btn-blue {
+	background-color: #CC7722;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin: 20px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #EECEAC;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
